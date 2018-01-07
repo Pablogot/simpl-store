@@ -1,12 +1,12 @@
 import Rebase from 're-base';
 
 const base = Rebase.createClass({
-	apiKey: "AIzaSyASVuNSTigQ2UByG_uqFHndcuKtuXxkFyQ",
-     authDomain: "catch-of-the-day-ddb58.firebaseapp.com",
-     databaseURL: "https://catch-of-the-day-ddb58.firebaseio.com",
-     projectId: "catch-of-the-day-ddb58",
-     storageBucket: "catch-of-the-day-ddb58.appspot.com",
-     messagingSenderId: "483310036619"
+		apiKey: "AIzaSyAg6GHYKS76iPesHbPD7lsc2Su9LT82jAU",
+	 	authDomain: "simpl-store.firebaseapp.com",
+	 	databaseURL: "https://simpl-store.firebaseio.com",
+	 	projectId: "simpl-store",
+	 	storageBucket: "",
+	 	messagingSenderId: "278633309241"
 });
 
 export default base;
