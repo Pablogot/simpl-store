@@ -19,5 +19,10 @@ class Product extends React.Component {
     )
   }
 }
+Product.PropTypes = {
+  details: React.PropTypes.object.isRequired,
+  index: React.PropTypes.string.isRequired,
+  addToOrder: React.PropTypes.func.isRequired
+}
 
 export default Product;

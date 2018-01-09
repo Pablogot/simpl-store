@@ -32,4 +32,9 @@ class AddProductForm extends React.Component {
   }
 }
 
+AddProductForm.PropTypes = {
+  addProduct: React.PropTypes.func.isRequired
+}
+
+
 export default AddProductForm;

@@ -96,9 +96,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="catch-of-the-day">
+      <div className="simpl-store">
         <div className="menu">
-          <Header tagline="Tech accesries at your fingertips" />
+          <Header tagline="Tech accessories at your fingertips" />
           <ul className="list-of-products">
             {
               Object
@@ -119,10 +119,16 @@ class App extends React.Component {
           loadSamples={this.loadSamples}
           products={this.state.products}
           updateProduct={this.updateProduct}
+          storeId={this.props.params.storeId}
         />
       </div>
     )
   }
 }
+
+App.PropTypes = {
+  params: React.PropTypes.object.isRequired
+}
+
 
 export default App;

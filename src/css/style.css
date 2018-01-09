@@ -261,7 +261,7 @@ header.top h3:after {
   top: auto;
   bottom: 7px;
 }
-.catch-of-the-day {
+.simpl-store {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -274,7 +274,7 @@ header.top h3:after {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
-.catch-of-the-day > * {
+.simpl-store > * {
   -webkit-box-flex: 1;
       -ms-flex: 1 4 auto;
           flex: 1 4 auto;
@@ -285,24 +285,24 @@ header.top h3:after {
   box-shadow: 0 5px 5px rgba(0,0,0,0.1);
   overflow: scroll;
 }
-.catch-of-the-day > *:first-child {
+.simpl-store > *:first-child {
   -ms-flex-negative: 1;
       flex-shrink: 1;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
-.catch-of-the-day > *:nth-child(2) {
+.simpl-store > *:nth-child(2) {
   border-left: 0;
   border-right: 0;
   min-width: 300px;
 }
-.catch-of-the-day > *:last-child {
+.simpl-store > *:last-child {
   -ms-flex-negative: 1;
       flex-shrink: 1;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
-input#fold:not(:checked) ~ #main .catch-of-the-day > * {
+input#fold:not(:checked) ~ #main .simpl-store > * {
   -webkit-transform: none;
           transform: none;
 }
